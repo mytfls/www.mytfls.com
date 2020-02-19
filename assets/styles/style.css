@@ -226,6 +226,7 @@ textarea {
 }
 
 #footer {
+	clear: both;
 	width: 90%;
 	margin: 0 auto;
 	text-align: center;
@@ -238,12 +239,21 @@ textarea {
 }
 
 #section-links {
-	width: 50%;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#section-links h3 {
+	width: 20%;
+	float: left;
 	margin: 0 auto;
 	text-align: center;
 }
 
 #list-links {
+	width: 80%;
+	float: right;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -267,4 +277,22 @@ a:focus {
 a:hover,
 a:active {
 	outline: 0;
+}
+
+#header h1, #header h2, 
+#main-wrapper h1, #main-wrapper h2, #main-wrapper h3, #main-wrapper h4, #main-wrapper h5, #main-wrapper h6 {
+	margin: 0.3rem auto;
+}
+
+#qr-code-img img {
+	border: 2px dotted;
+}
+
+#list-links li {
+	float: left;
+	margin: 0.2rem 0.5rem;
+}
+
+#footer p {
+	line-height: 1.5em;
 }
